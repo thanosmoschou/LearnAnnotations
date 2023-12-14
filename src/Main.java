@@ -16,7 +16,7 @@ public class Main
 		Animal cat = new Cat("mia");
 		Animal dog = new Dog("max");
 		
-  //With getClass() method or class literal I can get the instance(object) of a class of a running program
+  //With getClass() method or class literal I can get the instance(object) of a class or an interface of a running program
   //For example with myObject.getClass() or myObject.class I get the instance of the class that myObject belongs to.
 		
 		//check if Cat has the VeryImportant annotation
