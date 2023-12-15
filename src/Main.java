@@ -17,6 +17,13 @@ public class Main
 		Animal dog = new Dog("max");
 		
   		/* From the official Java documentation:
+		 * public final class Class<T> 
+		 * extends Object 
+		 * implements Serializable, GenericDeclaration, Type, AnnotatedElement
+		 * 
+		 * Type Parameters:
+		 * T - the type of the class modeled by this Class object. For example, the type of String.class is Class<String>. Use Class<?> if the class being modeled is unknown.
+		 * 
 		 * Instances of the class Class represent classes and interfaces in a running Java application. 
 		 * An enum is a kind of class and an annotation is a kind of interface. 
 		 * Every array also belongs to a class that is reflected as a Class object that is shared by all arrays with the same element type and number of dimensions. 
